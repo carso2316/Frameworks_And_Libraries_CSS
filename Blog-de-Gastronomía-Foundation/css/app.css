@@ -1,0 +1,98 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-completo {
+    background-color: rgba(106, 89, 206, 0.8);
+    /*width: 100%; al asociar width a los contenedores row no aborda ancho total en pantallas pequenas*/
+    min-height: 100px; /*Importante establecer altura y ancho del contenedor para que sus hijos tengan una referencia padre de ancho y alto*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.columna-izq {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.contenedor-header-izquierda {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.columna-der {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.seccion-izq {
+    background-color: rgba(138, 131, 163, 0.6);
+    min-height: 100px;
+    border-radius: 5px;    
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.img-seccion-izq {
+    height: 101.66px;
+}
+
+.lista-historial {
+    padding-left: 20px;
+}
+
+.seccion-der {   
+    min-height: 100px;
+    border-radius: 5px;    
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.plato-principal {
+    width: 100%;
+    max-height: 400px;
+}
+
+.campo-comentarios {
+    resize: none;
+}
+
+.contenedor-comentarios {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    min-height: 80px;
+}
+
+.avatar{
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+@media (max-width:850px) {
+    body {
+        background-image: url(../img/fondo.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}
+
+@media (max-width:500px) {
+    body {
+        background-image: url(../img/fondo.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,89 @@
+
+body {
+    background-image: url(../img/background-image2.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-header-superior {
+    background-color: rgba(74, 154, 228, 0.6);
+    /*width: 100%; al asociar width a los contenedores row no aborda ancho total en pantallas pequenas*/
+    min-height: 100px; /*Importante establecer altura y ancho del contenedor para que sus hijos tengan una referencia padre de ancho y alto*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.redes-sociales {
+    margin-top: 65px;
+    float: right;
+}
+
+.iconos {
+    width: 20px;
+}
+
+.logo {
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.seccion-contenido {
+    background-color: rgba(74, 192, 228, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contenedor-imagen-articulo {
+    width: 95%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+
+.imagen-articulo {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.articulo-text-area {
+    background-color: rgba(47, 79, 109, 0.6);
+    resize: none;
+}
+
+.articulo-text-area::placeholder {
+    color: white;
+}
+
+.boton-enviar-comentario {
+    float: right;
+    margin-top: 5px;
+}
+
+@media (max-width:850px) {
+    body {
+        background-image: url(../img/background-image2.jpg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}
+
+@media (max-width:500px) {
+    body {
+        background-image: url(../img/background-image2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+}
